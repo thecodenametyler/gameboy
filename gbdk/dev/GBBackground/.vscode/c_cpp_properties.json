@@ -4,8 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "c:/gbdk/include",
-                "c:/gbdk/dev/GBBackground"
+                "c:/gameboy/gbdk/include",
+                "c:/gameboy/gbdk/dev/GBBackground"
             ],
             "defines": [
                 "_DEBUG",

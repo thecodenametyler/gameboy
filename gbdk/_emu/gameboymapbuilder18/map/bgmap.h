@@ -1,6 +1,6 @@
 /*
 
- BACKGROUNDMAP.H
+ BGMAP.H
 
  Map Include File.
 
@@ -8,7 +8,7 @@
    Section       : 
    Bank          : 0
    Map size      : 32 x 18
-   Tile set      : C:\gbdk\_emu\gameboytiledesigner22\background\backgroundtiles.gbr
+   Tile set      : C:\gameboy\gbdk\_emu\gameboytiledesigner22\background\backgroundtiles.gbr
    Plane count   : 1 plane (8 bits)
    Plane order   : Tiles are continues
    Tile offset   : 0
@@ -18,10 +18,10 @@
 
 */
 
-#define backgroundampWidth 32
-#define backgroundampHeight 18
-#define backgroundampBank 0
+#define bgmapWidth 32
+#define bgmapHeight 18
+#define bgmapBank 0
 
-extern unsigned char backgroundamp[];
+extern unsigned char bgmap[];
 
-/* End of BACKGROUNDMAP.H */
+/* End of BGMAP.H */

@@ -8,29 +8,38 @@ Symbol Table
     .__.CPU.                                                    =  000000 L
     .__.H$L.                                                    =  000000 L
     _LCDC_REG                                                      ****** GX
+    _LYC_REG                                                       ****** GX
     _SCX_REG                                                       ****** GX
-  2 _TileLabel                                                     000000 GR
-  7 __xinit__TileLabel                                             000000 R
-  7 __xinit__backgroundamp                                         000080 R
-  2 _backgroundamp                                                 000080 GR
+    _SCY_REG                                                       ****** GX
+    _STAT_REG                                                      ****** GX
+  7 __xinit__bgmap                                                 0000D0 R
+  7 __xinit__bgtiles                                               000000 R
+    _add_LCD                                                       ****** GX
+  1 _backgroundoffset1x                                            000000 GR
+  1 _backgroundoffset2x                                            000001 GR
+  1 _backgroundoffset3x                                            000002 GR
+  1 _backgroundoffset4x                                            000003 GR
+  2 _bgmap                                                         0000D0 GR
+  2 _bgtiles                                                       000000 GR
     _delay                                                         ****** GX
-  0 _main                                                          000000 GR
+  0 _interruptLCD                                                  000000 GR
+  0 _main                                                          000045 GR
     _set_bkg_data                                                  ****** GX
     _set_bkg_tiles                                                 ****** GX
-
+    _set_interrupts                                                ****** GX
 
 ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy Z80-like CPU), page 2.
 Hexadecimal [24-Bits]
 
 Area Table
 
-   0 _CODE                                      size     38   flags    0
-   1 _DATA                                      size      0   flags    0
-   2 _INITIALIZED                               size    2C0   flags    0
+   0 _CODE                                      size     C1   flags    0
+   1 _DATA                                      size      4   flags    0
+   2 _INITIALIZED                               size    310   flags    0
    3 _DABS                                      size      0   flags    8
    4 _HOME                                      size      0   flags    0
    5 _GSINIT                                    size      0   flags    0
    6 _GSFINAL                                   size      0   flags    0
-   7 _INITIALIZER                               size    2C0   flags    0
+   7 _INITIALIZER                               size    310   flags    0
    8 _CABS                                      size      0   flags    8
 

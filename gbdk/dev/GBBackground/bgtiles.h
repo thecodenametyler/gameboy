@@ -1,6 +1,6 @@
 /*
 
- BACKGROUNDTILES.H
+ BGTILES.H
 
  Include File.
 
@@ -10,7 +10,7 @@
   Compression          : None.
   Counter              : None.
   Tile size            : 8 x 8
-  Tiles                : 0 to 7
+  Tiles                : 0 to 12
 
   Palette colors       : None.
   SGB Palette          : None.
@@ -24,8 +24,8 @@
 
 
 /* Bank of tiles. */
-#define TileLabelBank 0
+#define bgtilesBank 0
 /* Start of tile array. */
-extern unsigned char TileLabel[];
+extern unsigned char bgtiles[];
 
-/* End of BACKGROUNDTILES.H */
+/* End of BGTILES.H */
